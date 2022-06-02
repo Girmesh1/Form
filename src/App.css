@@ -1,0 +1,41 @@
+.app{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(https://cdn.pixabay.com/photo/2020/01/15/20/37/sea-4768869_960_720.jpg);
+  background-size: cover;
+}
+form{
+  background-color: white;
+  padding:  0px 60px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+h1{
+  color: rgb(23, 121, 128);
+  text-align: center;
+
+}
+button{
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  border: none;
+  color:  white;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  background-color: rgb(34, 161, 170);
+
+
+}
+button:hover{
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(34, 161, 170);
+  color: gray;
+}
